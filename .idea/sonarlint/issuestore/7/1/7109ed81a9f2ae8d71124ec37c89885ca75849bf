@@ -1,0 +1,9 @@
+
+dphp:S103r"KSplit this 150 characters long line (which is greater than 120 authorized).(ƒÎÏüÿÿÿÿ
+`php:S103˜"KSplit this 150 characters long line (which is greater than 120 authorized).(ï“‚‘
+`php:S103¬"KSplit this 131 characters long line (which is greater than 120 authorized).(›ßÆû
+`php:S103½"KSplit this 130 characters long line (which is greater than 120 authorized).(«Û¹ì
+h	php:S1784´"RExplicitly mention the visibility of this method "calculateOrderRatingPercentage".(ïÇ‰Û
+{php:S115"bRename this constant "UseInsurance" to match the regular expression ^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$.(¥ØÓúÿÿÿÿ
+v	php:S1448
+"aClass "Order" has 29 methods, which is greater than 20 authorized. Split it into smaller classes.(ÌÎÉ

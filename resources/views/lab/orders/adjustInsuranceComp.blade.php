@@ -33,10 +33,29 @@
                             <div class="d-flex flex-column mb-8 fv-row">
                                 @include('includes.form.input',['type'=>'string','label'=> 'وصف','placeholder'=> 'وصف طبي','id'=>'description','name'=>'description','span'=>'description','value'=> null  ])
                             </div>
-                        </div><div class="col-md-12 fv-row">
+                         </div>
+
+                        <div class="col-md-12 fv-row">
                             <div class="d-flex flex-column mb-8 fv-row">
                                 @include('includes.form.input',['type'=>'string','label'=> 'تعليمات طبية','placeholder'=> 'تعليمات طبية','id'=>'instruction','name'=>'instruction','span'=>'instruction','value'=> null  ])
                             </div>
+                        </div>
+
+                        <div class="col-md-12 fv-row">
+                            <label
+                                class="required fs-6 fw-semibold mb-2">{{ trans('cruds.medicalType.title') }}</label>
+                            <select class="form-select form-select-solid" data-control="select2"
+                                    data-hide-search="true"
+                                    data-placeholder="{{ trans('cruds.medicalType.title')}}"
+                                    name="medical_type_id" id="medical_type_id">
+                                <option
+                                    value="">{{trans('cruds.select')}}{{trans('cruds.medicalType.title')}}</option>
+                                @foreach($medicalTypes as $id => $medicalType)
+                                    <option value="{{$medicalType->id}}">{{$medicalType->title}}</option>
+                                @endforeach
+                            </select>
+                            <span class="text-danger errors"
+                                  id="medical_type_id_error"> </span>
                         </div>
 
                     </div>

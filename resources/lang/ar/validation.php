@@ -296,5 +296,7 @@ return [
         'about_us_en' => 'عنا (انجليزي)',
         'service_id' => 'الخدمة',
         'lab_id' => 'المختبر',
+        'medical_type_id' => 'العلاج',
+        'instruction' => 'التعليمات',
     ],
 ];

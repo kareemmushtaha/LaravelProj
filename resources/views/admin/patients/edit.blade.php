@@ -86,22 +86,7 @@
                                       id="gender_error"> </span>
                             </div>
 
-                             <div class="col-md-6 fv-row">
-                                <label
-                                    class="required fs-6 fw-semibold mb-2">{{ trans('cruds.patients.fields.insurance_company') }}</label>
-                                <select class="form-select form-select-solid" data-control="select2"
-                                        data-hide-search="true"
-                                        data-placeholder="{{trans('cruds.patients.fields.insurance_company')}}"
-                                        name="insurance_comp_id" id="insurance_comp_id">
-                                    <option value="">{{trans('cruds.patients.fields.insurance_company')}}</option>
-                                    @foreach($insurance_companies as  $insurance_company)
-                                        <option @if($patient->insurance_comp_id  == $insurance_company->id) selected
-                                                @endif value={{$insurance_company->id}}>{{$insurance_company->title}}</option>
-                                    @endforeach
-                                </select>
-                                <span class="text-danger errors"
-                                      id="insurance_comp_id_error"> </span>
-                            </div>
+
 
                             {{-- Note:  patient country must be saudia --}}
                             <div class="col-md-6 fv-row">

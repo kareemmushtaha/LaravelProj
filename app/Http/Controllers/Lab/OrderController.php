@@ -7,6 +7,7 @@ use App\Http\Requests\Admin\MainServiceRequest;
 use App\Http\Requests\Hospital\RejectOrderRequest;
 use App\Http\Requests\Lab\MedicalTestRequest;
 use App\Http\Resources\OrderMedicalTestResource;
+use App\Models\MedicalType;
 use App\Models\Order;
 use App\Models\OrderMedical;
 use App\Models\User;
@@ -30,6 +31,7 @@ class OrderController extends Controller
         $hospitalId = auth()->user()->id;
         $hospitalDoctors = User::query()->WhereDoctorInHospital($hospitalId)->pluck('id')->toArray();
         $data['order'] = Order::query()->findOrFail($orderId);
+        $data['medicalTypes'] = MedicalType::query()->get();
         $data['doctors'] = $this->getSuggestDoctors($data['order']['id']);
         if ($data['order']['hospital_id'] == $hospitalId || in_array($data['order']['doctor_id'], $hospitalDoctors)) {
             return view('lab.orders.show', $data);
@@ -112,13 +114,13 @@ class OrderController extends Controller
     public function storeMedicalTest(MedicalTestRequest $request): \Illuminate\Http\JsonResponse
     {
         try {
-
             $order = Order::query()->find($request->order_id);
             if ($order) {
                  OrderMedical::query()->create([
                     'order_id' => $request->order_id,
                     'description' => $request->description,
-                    'instruction' => $request->instruction,
+                     'instruction' => $request->instruction,
+                     'medical_type_id' => $request->medical_type_id,
                 ]);
                 return response()->json(['status' => true, 'msg' => trans('global.create_successfully')]);
 

@@ -339,6 +339,7 @@
                                                     </td>
                                                     <td class="text-dark">{{trans('cruds.description')}}</td>
                                                     <td class="text-dark">{{trans('cruds.orders.fields.instruction')}}</td>
+                                                    <td class="text-dark">{{ trans('cruds.medicalType.title')}}</td>
                                                 </tr>
 
                                                 @foreach($order->medicalTest as $medical )
@@ -351,6 +352,7 @@
                                                         </td>
                                                         <td class="text-dark"> {{$medical->description}}</td>
                                                         <td class="text-dark"> {{$medical->instruction}}</td>
+                                                        <td class="text-dark"> {{$medical->medicalType?->title}}</td>
                                                     </tr>
                                                 @endforeach
                                                 </tbody>

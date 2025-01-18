@@ -1,0 +1,76 @@
+
+dphp:S103."KSplit this 222 characters long line (which is greater than 120 authorized).(°ûà’ùÿÿÿÿ
+dphp:S1038"KSplit this 131 characters long line (which is greater than 120 authorized).(ıè—…ıÿÿÿÿ
+`php:S103†"KSplit this 210 characters long line (which is greater than 120 authorized).(ğõÔ¥
+ephp:S103Š"KSplit this 153 characters long line (which is greater than 120 authorized).(Ö’üüÿÿÿÿ
+`php:S103"KSplit this 210 characters long line (which is greater than 120 authorized).(ğõÔ¥
+ephp:S103’"KSplit this 176 characters long line (which is greater than 120 authorized).(Ùîùÿÿÿÿ
+`php:S103–"KSplit this 179 characters long line (which is greater than 120 authorized).(º­§ı
+ephp:S103™"KSplit this 180 characters long line (which is greater than 120 authorized).(Ùîùÿÿÿÿ
+ephp:S103¦"KSplit this 133 characters long line (which is greater than 120 authorized).(ÉëíÂùÿÿÿÿ
+ephp:S103°"KSplit this 147 characters long line (which is greater than 120 authorized).(¯Ã«àÿÿÿÿÿ
+ephp:S103Æ"KSplit this 179 characters long line (which is greater than 120 authorized).(¥ÿØ¥øÿÿÿÿ
+ephp:S103×"KSplit this 133 characters long line (which is greater than 120 authorized).(ÉëíÂùÿÿÿÿ
+`php:S103á"KSplit this 148 characters long line (which is greater than 120 authorized).(²ÃÂ›
+`php:S103é"KSplit this 122 characters long line (which is greater than 120 authorized).(™™­ƒ
+ephp:S103÷"KSplit this 179 characters long line (which is greater than 120 authorized).(¥ÿØ¥øÿÿÿÿ
+ephp:S103‰"KSplit this 133 characters long line (which is greater than 120 authorized).(ÉëíÂùÿÿÿÿ
+`php:S103"KSplit this 194 characters long line (which is greater than 120 authorized).(ÆëŠ¿
+`php:S103’"KSplit this 144 characters long line (which is greater than 120 authorized).(Ò¡ôñ
+ephp:S103™"KSplit this 201 characters long line (which is greater than 120 authorized).(œ“Á¸ûÿÿÿÿ
+ephp:S103£"KSplit this 179 characters long line (which is greater than 120 authorized).(¥ÿØ¥øÿÿÿÿ
+`php:S103ß"KSplit this 125 characters long line (which is greater than 120 authorized).(Ô Èß
+`php:S103ğ"KSplit this 123 characters long line (which is greater than 120 authorized).(òÛ µ
+`php:S103ó"KSplit this 126 characters long line (which is greater than 120 authorized).(…™²˜
+ephp:S103È"KSplit this 129 characters long line (which is greater than 120 authorized).(õß…¢úÿÿÿÿ
+`php:S103Õ"KSplit this 131 characters long line (which is greater than 120 authorized).(¨ä©·
+ephp:S103Û"KSplit this 137 characters long line (which is greater than 120 authorized).(Ñ€Êëşÿÿÿÿ
+`php:S103ü"KSplit this 121 characters long line (which is greater than 120 authorized).(ëò‘
+ephp:S103"KSplit this 138 characters long line (which is greater than 120 authorized).(å»ôŞùÿÿÿÿ
+ephp:S103©"KSplit this 138 characters long line (which is greater than 120 authorized).(å»ôŞùÿÿÿÿ
+`php:S103º"KSplit this 124 characters long line (which is greater than 120 authorized).(¾ÅÙØ
+`php:S103»"KSplit this 140 characters long line (which is greater than 120 authorized).(šÿ®Î
+`php:S103½"KSplit this 149 characters long line (which is greater than 120 authorized).(½»Øç
+ephp:S103“"KSplit this 122 characters long line (which is greater than 120 authorized).(¾£Ùêÿÿÿÿÿ
+ephp:S103¢"KSplit this 125 characters long line (which is greater than 120 authorized).(šÆ¾™úÿÿÿÿ
+\php:S107ü"GThis function has 8 parameters, which is greater than the 7 authorized.(ëò‘
+pphp:S100"WRename function "get_default_lang" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‘ŒÚƒúÿÿÿÿ
+kphp:S100"QRename function "order_type" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ü½‘Ôûÿÿÿÿ
+uphp:S100Ê"[Rename function "order_type_by_number" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ä›¥“øÿÿÿÿ
+yphp:S100Ó"eRename function "order_type_translate_by_number" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ƒùŞ
+fphp:S100Ü"RRename function "OrderStatus" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(·ıY
+tphp:S100ö"ZRename function "OrderStatusByNumber" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ô²™ˆşÿÿÿÿ
+xphp:S100‚"^Rename function "OrderStatusByNumber_Web" to match the regular expression ^[a-z][a-zA-Z0-9]*$.( áğşÿÿÿÿ
+mphp:S100"XRename function "OrderStatusByName" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(…îûà
+€php:S100ß"kRename function "CheckDoctorWorkInTimeOutSideHospital" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ô Èß
+php:S100ğ"jRename function "CheckDoctorWorkInTimeInsideHospital" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(òÛ µ
+ƒphp:S100È"iRename function "CheckHospitalWorkInMainServiceTime" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(õß…¢úÿÿÿÿ
+rphp:S100ß"XRename function "send_notification" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ŞÕ×åüÿÿÿÿ
+sphp:S100ü"^Rename function "push_notification_order" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ëò‘
+xphp:S100Œ"^Rename function "push_topic_notification" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¦Èß¶ÿÿÿÿÿ
+zphp:S100š"`Rename function "MainServicesHospitalValue" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Å¬Ó«şÿÿÿÿ
+{php:S100¦"aRename function "MainServicesHospitalHouses" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ã±şÉşÿÿÿÿ
+Y	php:S1142²">This function has 5 returns, which is more than the 3 allowed.(¦©í¨şÿÿÿÿ
+pphp:S117P"\Rename this local variable "$Setting" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(¥Ç»×
+pphp:S117e"\Rename this local variable "$Setting" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(¥Ç»×
+`	php:S1192²"JDefine a constant instead of duplicating this literal "Y-m-d H:i" 3 times.(Ôşşï
+{	php:S1488t"aImmediately return this expression instead of assigning it to the temporary variable "$filename".(™›½­üÿÿÿÿ
+	php:S1488ò"dImmediately return this expression instead of assigning it to the temporary variable "$sortedTimes".(ü¹ìÀşÿÿÿÿ
+y	php:S1488Û"^Immediately return this expression instead of assigning it to the temporary variable "$total".(Ñ€Êëşÿÿÿÿ
+@	php:S1481á"*Remove this unused "$lang" local variable.(äğ„ 
+@	php:S1481'"+Remove this unused "$index" local variable.(¨²ñ
+L	php:S1172’"6Remove the unused function parameter "$errorMessages".(øÉ—å
+Q	php:S1172"6Remove the unused function parameter "$errorMessages".(É…è¿úÿÿÿÿ
+Q	php:S1172¨"6Remove the unused function parameter "$errorMessages".(Öàœ–úÿÿÿÿ
+K	php:S1172Ä"0Remove the unused function parameter "$request".(•‰²Òÿÿÿÿÿ
+K	php:S1172ü"5Remove the unused function parameter "$data_backend".(ëò‘
+F	php:S1172±"0Remove the unused function parameter "$orderId".(Âı×¸
+J	php:S1066Ó"/Merge this if statement with the enclosing one.(ü½ãúÿÿÿÿ
+x	php:S4144Ï"]Update this method so that its implementation is not identical to "divisionHour" on line 183.(¢Ãå“şÿÿÿÿ
+	php:S4144‚"dUpdate this method so that its implementation is not identical to "OrderStatusByNumber" on line 374.( áğşÿÿÿÿ
+4php:S125ˆ"Remove this commented out code.(â­ö
+9php:S125°"Remove this commented out code.(Æñáßşÿÿÿÿ
+4php:S125Æ"Remove this commented out code.(ÃÃ¦
+4php:S125Ş"Remove this commented out code.(ÃÃ¦
+9php:S125¢"Remove this commented out code.(¶Éàıøÿÿÿÿ
+Iphp:S121H"0Add curly braces around the nested statement(s).(¹–ƒÿÿÿÿÿ

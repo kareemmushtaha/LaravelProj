@@ -25,8 +25,9 @@ class MedicalTestRequest extends FormRequest
     {
         return [
             'order_id' => 'required|numeric|exists:orders,id',
-            'description' => 'nullable|string',
-            'instruction' => 'nullable|string',
+            'medical_type_id' => 'required|numeric|exists:medical_types,id',
+            'description' => 'required|string',
+            'instruction' => 'required|string',
 
         ];
     }

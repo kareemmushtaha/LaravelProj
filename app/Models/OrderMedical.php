@@ -25,16 +25,9 @@ class OrderMedical extends Model
         return asset('assets/media/main-services/' . $value);
     }
 
+    public function medicalType(): \Illuminate\Database\Eloquent\Relations\BelongsTo
+    {
+        return $this->belongsTo(MedicalType::class, 'medical_type_id', 'id');
+    }
 
 }
-
-
-
-
-
-
-
-
-
-
-

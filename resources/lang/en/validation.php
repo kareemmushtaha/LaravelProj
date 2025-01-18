@@ -161,5 +161,7 @@ return [
         'provider_name_en' => 'Provider Name EN',
         'about_us_ar' => 'About Us Ar',
         'about_us_en' => 'About Us En',
+        'medical_type_id' => 'Medical Type',
+        'instruction' => 'Instruction',
     ],
 ];

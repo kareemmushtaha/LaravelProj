@@ -80,7 +80,7 @@
                         <div class="cursor-pointer symbol symbol-30px symbol-md-40px" data-kt-menu-trigger="click"
                              data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end"
                              data-kt-menu-flip="bottom">
-                            <img src="{{asset('assets/media/avatars/userman.png')}}" alt="metronic"/>
+                            <img src="{{auth()->user()->photo}}" alt="metronic"/>
                         </div>
                         <!--begin::Menu-->
                         <div
@@ -91,7 +91,7 @@
                                 <div class="menu-content d-flex align-items-center px-3">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-50px me-5">
-                                        <img alt="Logo" src="{{asset('assets/media/avatars/userman.png')}}"/>
+                                        <img alt="Logo" src="{{auth()->user()->photo}}"/>
                                     </div>
                                     <!--end::Avatar-->
                                     <!--begin::Username-->

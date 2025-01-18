@@ -1,0 +1,12 @@
+
+dphp:S103G"KSplit this 141 characters long line (which is greater than 120 authorized).(©ËæÝýÿÿÿÿ
+dphp:S103Q"KSplit this 142 characters long line (which is greater than 120 authorized).(óýì“ûÿÿÿÿ
+`php:S103È"KSplit this 189 characters long line (which is greater than 120 authorized).(åÔ ù
+`php:S103÷"KSplit this 311 characters long line (which is greater than 120 authorized).(»üåî
+ephp:S103ø"KSplit this 288 characters long line (which is greater than 120 authorized).(É¸Ïùüÿÿÿÿ
+ephp:S103ü"KSplit this 122 characters long line (which is greater than 120 authorized).(Äó“˜ýÿÿÿÿ
+\	php:S1784í"FExplicitly mention the visibility of this method "sendOrderFcmAndSms".(¼ùõÿ
+V	php:S11422"<This method has 5 returns, which is more than the 3 allowed.(ä½îýÿÿÿÿ
+C	php:S1125S")Remove the literal "false" boolean value.(Ôµª‰úÿÿÿÿ
+‰	php:S4143¿"tVerify this is the array key that was intended to be written to; a value has already been saved for it and not used.(Ùºy
+3php:S125R"Remove this commented out code.(À³ 

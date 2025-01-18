@@ -1,0 +1,5 @@
+
+_php:S103"KSplit this 131 characters long line (which is greater than 120 authorized).(Ü»ìó
+dphp:S103w"KSplit this 131 characters long line (which is greater than 120 authorized).(”Üä•ıÿÿÿÿ
+|	php:S1192U"bDefine a constant instead of duplicating this literal "The :attribute format is invalid." 3 times.(ğç·æüÿÿÿÿ
+y	php:S1192#"dDefine a constant instead of duplicating this literal "The selected :attribute is invalid." 3 times.(Ó–¹
